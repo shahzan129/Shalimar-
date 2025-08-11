@@ -12,14 +12,14 @@ const File = () => {
     <div className='bg-white'>
       <div className='sticky top-0 z-50'>
         {/* Header */}
-        <div className='h-20 w-full bg-blue-500 flex justify-around items-center'>
+        <div className='h-20 w-full bg-gradient-to-r from-rose-500 via-sky-500 to-yellow-500 flex justify-around items-center'>
           {/* Mobile Menu Icon */}
           <div className='lg:hidden block text-white'>
             <FiAlignJustify size={24} />
           </div>
 
           {/* Logo */}
-          <div className='h-15 w-35'>
+          <div className='h-20 w-35'>
             <img src='https://logos.textgiraffe.com/logos/logo-name/Shalimar-designstyle-smoothie-m.png' alt='Shalimar Logo' className='h-full w-full object-contain' />
           </div>
 
@@ -154,10 +154,10 @@ const File = () => {
         {/* Desktop View */}
         <div className='lg:flex hidden'>
           <div className='w-1/4'>
-            <img src='https://crazzyhub.s3.amazonaws.com/media/maincat/image/tv_3PbwT80_1.jpg' alt='Mobile and Tablets banner' className='w-full h-full object-cover' />
+            <img src='https://crazzyhub.s3.amazonaws.com/media/maincat/image/mobile_9uce9lj.jpg' alt='Mobile and Tablets banner' className='w-full h-full object-cover' />
           </div>
           <div className='w-3/4 bg-gray-100 p-4'>
-            <h2 className='text-2xl font-bold mb-4'>Mobiles & Tablets</h2>
+            <h2 className='text-2xl font-bold mb-4 '>Mobiles & Tablets</h2>
             <div className='flex gap-4 overflow-x-auto'>
               {/* Product Card 1 */}
               <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
@@ -281,12 +281,214 @@ const File = () => {
           <img src='https://crazzyhub.s3.amazonaws.com/media/maincat/image/tv_3PbwT80_1.jpg' alt='TVs and Electronics banner' className='w-full h-full object-cover' />
         </div>
       </div>
-
-
-      <Bottom />
-      <div>
-        <img src='https://crazzyhub.s3.amazonaws.com/media/slider/Laptops-Available-at-Poddorvika.webp' alt='Laptop banner'/>
+      {/* Mobile View */}
+      <div className='lg:hidden block mx-2 my-5'>
+        <h2 className='text-xl font-bold mb-2 bg-gray-200 h-10'>Tv's & Electronics</h2>
+        <div className='grid grid-cols-2 gap-4'>
+          {/* Product Card 1 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_-_2023-03-21T174342.jpg' alt='Samsung Galaxy A26' />
+            <p className='text-xs mt-2'>Mi Q1 138.8 cm (55 inch) QLED Ultra HD (4K) Smart Android TV...</p>
+            <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+            <div className='font-bold mt-1'>₹22999</div>
+          </div>
+          {/* Product Card 2 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_-_2023-03-21T175538.jpg' alt='Samsung Galaxy A36' />
+            <p className='text-xs mt-2'>Mi 5X 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV...</p>
+            <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+            <div className='font-bold mt-1'>₹44999</div>
+          </div>
+          {/* Product Card 3 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_-_2023-03-21T190331.jpg' alt='POCO C61' />
+            <p className='text-xs mt-2'>Mi 4C 80 cm (32 inch) HD Ready LED Smart Android TV...</p>
+            <div className='text-red-700 font-semibold text-xs mt-1'>out Stock</div>
+            <div className='font-bold mt-1'>₹</div>
+          </div>
+          {/* Product Card 4 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_-_2023-03-22T095858.jpg' alt='Vivo V50e 5G' />
+            <p className='text-xs mt-2'>LG UQ7500 108 cm (43 inch) Ultra HD (4K) LED Smart WebOS TV...</p>
+            <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+            <div className='font-bold mt-1'>₹30490</div>
+          </div>
+        </div>
       </div>
+
+
+      <div>
+        <img src='https://crazzyhub.s3.amazonaws.com/media/slider/Laptops-Available-at-Poddorvika.webp' alt='Laptop banner' />
+      </div>
+      {/* Portion-3: Laptop & Accessories */}
+      <div className='my-5'>
+        {/* Desktop View */}
+        <div className='lg:flex hidden'>
+          <div className='w-1/4'>
+            <img src='https://crazzyhub.s3.amazonaws.com/media/maincat/image/laptop_fXiBXlk.jpg' alt='Laptop & Accessories banner' className='w-full h-full object-cover' />
+          </div>
+          <div className='w-3/4 bg-gray-100 p-4'>
+            <h2 className='text-2xl font-bold mb-4'>Laptop & Accessories</h2>
+            <div className='flex gap-4 overflow-x-auto'>
+              {/* Product Card 1 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_8_CXclUvO_NxteecM.jpg' alt='Samsung Galaxy A26' />
+                <p className='text-sm mt-2'>SAMSUNG Galaxy Book Go Snapdragon 7c Gen 2 -Thin and Light Laptop(Silver,8GB + 512GB)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹47990</div>
+              </div>
+              {/* Product Card 2 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/crazzy.jpg' alt='Samsung Galaxy A36' />
+                <p className='text-sm mt-2'>Lenovo Intel Core i5 12th Gen -Thin and Light Laptop(Onyx Grey , 16GB+512GB)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹92990</div>
+              </div>
+              {/* Product Card 3 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/reply_image_8FLmEfW.jpg' alt='POCO C61' />
+                <p className='text-sm mt-2'>Lenovo Intel Core i5 11th Gen - Gaming Laptop(Shadow Black , 8GB+512GB)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹71990</div>
+              </div>
+              {/* Product Card 4 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/crazzy_hub_37.jpg' alt='Vivo V50e 5G' />
+                <p className='text-sm mt-2'>DELL Inspiron Ryzen 5 Dual Core 3450U (Black, 8GB+512GB)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹45890</div>
+              </div>
+              {/* Product Card 5 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/crazzy_hub_48.jpg' alt='VIVO Y400 Pro 5G' />
+                <p className='text-sm mt-2'>DELL Inspiron Core i5 11th Gen -Thin and Light Laptop (Titan Grey , 8GB+512GB)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹72999</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Mobile View */}
+        <div className='lg:hidden block mx-2 my-5'>
+          <h2 className='text-xl font-bold mb-2 bg-gray-200 h-10'>Laptop & Accessories</h2>
+          <div className='grid grid-cols-2 gap-4'>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_8_CXclUvO_NxteecM.jpg' alt='Samsung Galaxy A26' />
+              <p className='text-xs mt-2'>SAMSUNG Galaxy Book Go Snapdragon 7c Gen 2 -Thin and Light Laptop(Silver,8GB + 512GB)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1 '>₹47990</div>
+            </div>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/crazzy.jpg' alt='Samsung Galaxy A36' />
+              <p className='text-xs mt-2'>Lenovo Intel Core i5 12th Gen -Thin and Light Laptop(Onyx Grey , 16GB+512GB)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹92990</div>
+            </div>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/reply_image_8FLmEfW.jpg' alt='POCO C61' />
+              <p className='text-xs mt-2'>Lenovo Intel Core i5 11th Gen - Gaming Laptop(Shadow Black , 8GB+512GB)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹71990</div>
+            </div>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/crazzy_hub_48.jpg' alt='Vivo V50e 5G' />
+              <p className='text-xs mt-2'>DELL Inspiron Core i5 11th Gen -Thin and Light Laptop (Titan Grey , 8GB+512GB)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹72999</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Banner */}
+      <div className='my-5'>
+        <img src='https://crazzyhub.s3.amazonaws.com/media/banner/big_banner_of_computer_2.jpg' alt=' banner' className='w-full' />
+      </div>
+
+      {/* Portion-4:Computer & Peripherals */}
+      <div className='lg:flex hidden my-5'>
+        <div className='w-3/4 bg-gray-100 p-4'>
+          <h2 className='text-2xl font-bold mb-4'>Computer & Peripherals</h2>
+          <div className='flex gap-4 overflow-x-auto'>
+            {/* Product Card 1 */}
+            <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+              <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/reply_image_GxDJrvC_PqU2pBX.jpg' alt='Mi Q1 TV' />
+              <p className='text-sm mt-2'>JBL Flip Essential IPX7 Waterproof 16 W Bluetooth Speaker (Black)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹11999</div>
+            </div>
+            {/* Product Card 2 */}
+            <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+              <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_27_fCnB8LM_ARgkgGr.jpg' alt='Mi 5X TV' />
+              <p className='text-sm mt-2'>boAt Stone 350 10 W Bluetooth Speaker (Black)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹3490</div>
+            </div>
+            {/* Product Card 3 */}
+            <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+              <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/reply_image_CcYlM31_PlEZ9NZ.jpg' alt='Mi 4C TV' />
+              <p className='text-sm mt-2'>SAMSUNG MX-T40/XL 300 W with Bass Booster Bluetooth Party Speaker (Black)</p>
+              <div className='text-red-700 font-semibold text-xs mt-1'>OUT Stock</div>
+              <div className='font-bold mt-1'>₹10000</div>
+            </div>
+            {/* Product Card 4 */}
+            <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+              <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_23_K2Amgak_D0b6T9Q.jpg' alt='LG UQ7500 TV' />
+              <p className='text-sm mt-2'>LJBL Go Ultra Portable 3.1 W Bluetooth Speaker (Black)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹2999</div>
+            </div>
+            {/* Product Card 5 */}
+            <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+              <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_78_WCL4Bfc_BXhKogk_JUqvCHG.jpg' alt='LG OLED TV' />
+              <p className='text-sm mt-2'>LG LK72B, Deep Bass, Bluetooth (Black)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹4999</div>
+            </div>
+          </div>
+        </div>
+        <div className='w-1/4'>
+          <img src='https://crazzyhub.s3.amazonaws.com/media/maincat/image/computer-and-speaker_OpTRCiD.jpg' alt='TVs and Electronics banner' className='w-full h-full object-cover' />
+        </div>
+      </div>
+      {/* Mobile View */}
+      <div className='lg:hidden block mx-2 my-5'>
+        <h2 className='text-xl font-bold mb-2 bg-gray-200 h-10'>Computer & Peripherals</h2>
+        <div className='grid grid-cols-2 gap-4'>
+          {/* Product Card 1 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/reply_image_GxDJrvC_PqU2pBX.jpg' alt='Samsung Galaxy A26' />
+            <p className='text-xs mt-2'>JBL Flip Essential IPX7 Waterproof 16 W Bluetooth Speaker (Black)</p>
+            <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+            <div className='font-bold mt-1'>₹11999</div>
+          </div>
+          {/* Product Card 2 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_27_fCnB8LM_ARgkgGr.jpg' alt='Samsung Galaxy A36' />
+            <p className='text-xs mt-2'>boAt Stone 350 10 W Bluetooth Speaker (Black)</p>
+            <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+            <div className='font-bold mt-1'>₹3490</div>
+          </div>
+          {/* Product Card 3 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/reply_image_CcYlM31_PlEZ9NZ.jpg' alt='POCO C61' />
+            <p className='text-xs mt-2'>SAMSUNG MX-T40/XL 300 W with Bass Booster Bluetooth Party Speaker (Black)</p>
+            <div className='text-red-700 font-semibold text-xs mt-1'>out Stock</div>
+            <div className='font-bold mt-1'>₹10000</div>
+          </div>
+          {/* Product Card 4 */}
+          <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+            <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_23_K2Amgak_D0b6T9Q.jpg' alt='Vivo V50e 5G' />
+            <p className='text-xs mt-2'>JBL Go Ultra Portable 3.1 W Bluetooth Speaker (Black)</p>
+            <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+            <div className='font-bold mt-1'>₹2999</div>
+          </div>
+        </div>
+      </div>
+       {/* Banner */}
+      <div className='my-5'>
+        <img src='https://crazzyhub.s3.amazonaws.com/media/banner/powerbank_with_brand.jpg' alt=' banner' className='w-full' />
+      </div>
+
     </div>
   );
 };

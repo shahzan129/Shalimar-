@@ -12,8 +12,8 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
-      <div>
+    <Slider  {...settings}>
+      <div >
         <img src="https://crazzyhub.s3.amazonaws.com/media/slider/iphone-16-web-new2.webp" />
       </div>
       <div>
