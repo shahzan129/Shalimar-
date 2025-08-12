@@ -5,7 +5,7 @@ import { CgProfile } from "react-icons/cg";
 import { FiAlignJustify } from "react-icons/fi";
 import SimpleSlider from './SimpleSlider';
 import AutoPlay from './AutoPlay';
-import Bottom from './Bottom';
+import Bottom1 from './Bottom1';
 
 const File = () => {
   return (
@@ -318,7 +318,7 @@ const File = () => {
 
 
       <div>
-        <img src='https://crazzyhub.s3.amazonaws.com/media/slider/Laptops-Available-at-Poddorvika.webp' alt='Laptop banner' />
+        <img src='https://crazzyhub.s3.amazonaws.com/media/banner/big_banner_TV.jpg' alt='Laptop banner' />
       </div>
       {/* Portion-3: Laptop & Accessories */}
       <div className='my-5'>
@@ -401,7 +401,7 @@ const File = () => {
       </div>
       {/* Banner */}
       <div className='my-5'>
-        <img src='https://crazzyhub.s3.amazonaws.com/media/banner/big_banner_of_computer_2.jpg' alt=' banner' className='w-full' />
+        <img src='https://crazzyhub.s3.amazonaws.com/media/slider/Laptops-Available-at-Poddorvika.webp' alt=' banner' className='w-full' />
       </div>
 
       {/* Portion-4:Computer & Peripherals */}
@@ -486,10 +486,95 @@ const File = () => {
       </div>
        {/* Banner */}
       <div className='my-5'>
+        <img src='https://crazzyhub.s3.amazonaws.com/media/banner/big_banner_of_computer_2.jpg' alt=' banner' className='w-full' />
+      </div>
+      
+       {/* Portion-5: Mobile Accessories */}
+      <div className='my-5'>
+        {/* Desktop View */}
+        <div className='lg:flex hidden'>
+          <div className='w-1/4'>
+            <img src='https://crazzyhub.s3.amazonaws.com/media/maincat/image/Mobile-accessories.jpg' alt='Laptop & Accessories banner' className='w-full h-full object-cover' />
+          </div>
+          <div className='w-3/4 bg-gray-100 p-4'>
+            <h2 className='text-2xl font-bold mb-4'>Mobile Accessories</h2>
+            <div className='flex gap-4 overflow-x-auto'>
+              {/* Product Card 1 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/Tecno_Buds_2_White_Crazzyhub.jpg' alt='Samsung Galaxy A26' />
+                <p className='text-sm mt-2'>Tecno Buds 2 True Wireless Earbuds (White)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹499</div>
+              </div>
+              {/* Product Card 2 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/lapcare_smart_tank.webp' alt='Samsung Galaxy A36' />
+                <p className='text-sm mt-2'>Lapcare Smart Tank 10000mAh Power Bank LPB-003 (Black)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹499</div>
+              </div>
+              {/* Product Card 3 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/Ubon_Mahabali_Cl-351_Black_Yellow_Crazzyhub.jpg' alt='POCO C61' />
+                <p className='text-sm mt-2'>Ubon Mahabali Series Cl-351 In Ear Wireless Neckband Upto 15 Hours Playtime v5.0 Bluetooth Headset (Black, Yellow)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹449</div>
+              </div>
+              {/* Product Card 4 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/CMF-nothing-65w-gan-3-port-power-adapter-dark-grey-Front-View.webp' alt='Vivo V50e 5G' />
+                <p className='text-sm mt-2'>CMF by Nothing 65W GaN Fast Charger 100% Original (Dark Grey)</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹2599</div>
+              </div>
+              {/* Product Card 5 */}
+              <div className='border border-gray-300 p-2 rounded-sm min-w-[200px]'>
+                <img className='w-40 h-40 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/MI_OUTDOOR_BLUETOOTH_SPEAKER_CRAZZYHUB.jpg' alt='VIVO Y400 Pro 5G' />
+                <p className='text-sm mt-2'>Mi Outdoor 5W Bluetooth Speaker Upto 20hrs Playback / IPX5 Splash Proof / Mono Channel Black</p>
+                <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+                <div className='font-bold mt-1'>₹1499</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Mobile View */}
+        <div className='lg:hidden block mx-2 my-5'>
+          <h2 className='text-xl font-bold mb-2 bg-gray-200 h-10'>Mobile Accessories</h2>
+          <div className='grid grid-cols-2 gap-4'>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/Tecno_Buds_2_White_Crazzyhub.jpg' alt='Samsung Galaxy A26' />
+              <p className='text-xs mt-2'>Tecno Buds 2 True Wireless Earbuds (White)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1 '>₹499</div>
+            </div>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/lapcare_smart_tank.webp' alt='Samsung Galaxy A36' />
+              <p className='text-xs mt-2'>Lapcare Smart Tank 10000mAh Power Bank LPB-003 (Black)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹499</div>
+            </div>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/Ubon_Mahabali_Cl-351_Black_Yellow_Crazzyhub.jpg' alt='POCO C61' />
+              <p className='text-xs mt-2'>Ubon Mahabali Series Cl-351 In Ear Wireless Neckband Upto 15 Hours Playtime v5.0 Bluetooth Headset (Black, Yellow)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹449</div>
+            </div>
+            <div className='border border-gray-400 p-2 h-60 rounded-sm'>
+              <img className='w-24 h-24 object-contain mx-auto' src='https://crazzyhub.s3.amazonaws.com/media/product_variant/CMF-nothing-65w-gan-3-port-power-adapter-dark-grey-Front-View.webp' alt='Vivo V50e 5G' />
+              <p className='text-xs mt-2'>DELL Inspiron Core i5 11th Gen -Thin and Light Laptop (Titan Grey , 8GB+512GB)</p>
+              <div className='text-green-700 font-semibold text-xs mt-1'>In Stock</div>
+              <div className='font-bold mt-1'>₹2599</div>
+            </div>
+          </div>
+        </div>
+      </div>
+       {/* Banner */}
+      <div className='my-5'>
         <img src='https://crazzyhub.s3.amazonaws.com/media/banner/powerbank_with_brand.jpg' alt=' banner' className='w-full' />
       </div>
-
+      
     </div>
+    
   );
 };
 
