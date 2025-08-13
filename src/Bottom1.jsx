@@ -116,7 +116,7 @@ const Bottom1 = () => {
         </div>
       </div>
       {/*Mobile View*/}
-      <div className='lg:hidden block my-5'>
+      <div className='lg:hidden block my-5 mx-3'>
         <div className='grid grid-cols-2 gap-4'>
           <div>
             <div className='font-bold'>Support</div>
@@ -141,7 +141,7 @@ const Bottom1 = () => {
 
       </div>
       <div className='border border-gray-300 h-18 w-full lg:w-full flex items-center justify-center '>
-        <div className='lg:text-lg text-sm'>©2025 SHALIMAR RETAIL PVT. LTD. All Rights Reserved | Designed by Shahzan Khan! </div>
+        <div className='lg:text-lg text-sm mx-8'>©2025 SHALIMAR RETAIL PVT. LTD. All Rights Reserved | Designed by Shahzan Khan! </div>
         
       </div>
 
