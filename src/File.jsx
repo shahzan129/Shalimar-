@@ -569,10 +569,12 @@ const File = () => {
         </div>
       </div>
        {/* Banner */}
-      <div className='my-5'>
+      <div className='my-5 border border-gray-300 lg:h-105 h-36 '>
         <img src='https://crazzyhub.s3.amazonaws.com/media/banner/powerbank_with_brand.jpg' alt=' banner' className='w-full' />
       </div>
-      
+      <div>
+        <Bottom1/>
+      </div>
     </div>
     
   );
