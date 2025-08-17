@@ -108,13 +108,14 @@ const Bottom1 = () => {
           <div className='w-60'>
             <div className='font-bold'>Contact Information Head Office</div>
             <span>Registered Office Address:
-              CRAZZYHUB RETAIL PVT. LTD,
+              SHALIMAR RETAIL PVT. LTD,
               SS-1281 Sector-H Ashiyana, LDA Colony,
               Lucknow, 226012 Uttar Pradesh, India.
               CIN - U52590UP2021PTC153464</span>
           </div>
         </div>
       </div>
+
       {/*Mobile View*/}
       <div className='lg:hidden block my-5 mx-3'>
         <div className='grid grid-cols-2 gap-4'>
@@ -135,7 +136,7 @@ const Bottom1 = () => {
 
           <div>
             <div className='font-bold'>Contact Information Head Office</div>
-            <span>Registered Office Address: CRAZZYHUB RETAIL PVT. LTD, SS-1281 Sector-H Ashiyana, LDA Colony, Lucknow, 226012 Uttar Pradesh, India. CIN - U52590UP2021PTC153464</span>
+            <span>Registered Office Address: SHALIMAR RETAIL PVT. LTD, SS-1281 Sector-H Ashiyana, LDA Colony, Lucknow, 226012 Uttar Pradesh, India. CIN - U52590UP2021PTC153464</span>
           </div>
         </div>
 
